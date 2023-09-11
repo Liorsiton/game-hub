@@ -15,7 +15,7 @@ const useData = <T>(endpoint: string) =>{
     const [isLoading, setLoading] = useState(false);
   
     useEffect(() => {
-        const controller = new AbortController()
+        const controller = new AbortController();
        
 
       setLoading(true);        
